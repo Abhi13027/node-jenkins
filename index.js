@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(5000, () => {
-  console.log("The server is running");
+  console.log("The server is up and running");
 });
 
 module.exports = app;
