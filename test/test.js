@@ -4,6 +4,6 @@ var app = require("../index.js");
 describe("GET /", function () {
   it("respond with Hello World", function (done) {
     //navigate to root and check the response is "hello world"
-    request(app).get("/").expect("Hello World", done);
+    request(app).get("/").expect("Hello Abhishek", done);
   });
 });
