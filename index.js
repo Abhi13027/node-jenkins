@@ -5,6 +5,10 @@ app.get("/", (req, res) => {
   res.send("Hello Abhishek");
 });
 
+app.get("/abhishek", (req, res) => {
+  res.send("Abhishek");
+});
+
 app.listen(5000, () => {
   console.log("The server is up and running");
 });
