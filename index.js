@@ -16,6 +16,10 @@ app.get("/shubham", (req, res) => {
 app.get("/gaurav", (req, res) => {
   res.send("Gaurav");
 });
+
+app.get("/manvendra", (req, res) => {
+  res.send("Manvendra");
+})
 app.listen(5000, () => {
   console.log("The server is up and running");
 });
